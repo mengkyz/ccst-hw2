@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinder</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin 0;
+            padding 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .container {
+            background-image:
+             linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
+             linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.0)),
+             url(./pics/bg.webp);
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .div_a {
+            margin-left: 2rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .a_1 {
+            color: white;
+            font-weight: bold;
+            font-size: 3rem;
+        }
+
+        .div_a_1 {
+            flex-grow: 1;
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .div_a_1_1 {
+            flex-grow: 1;
+            display: flex;
+            gap: 1.5rem;
+            justify-content: flex-start;
+            align-items: center;
+ 
+        }
+
+        .a_2 {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem; 
+            font-weight: bold; 
+        }
+        
+        .div_a_2 {
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .pill_1 {
+            background-color: white;
+            border: none;
+            color: black;
+            font-size: 1.5rem;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            border-radius: 30px;
+        }
+
+
+        .div_b {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pill_2 {
+            background-image: linear-gradient(to top right, #fd267a, #ff6036);
+            border: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.5rem;
+            padding: 0.5rem 1rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            border-radius: 30px;
+        }
+
+        .div_c {
+            margin-right: 2rem;
+            font-size: 0.75rem;
+            color: white;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">      
+        <div class="div_a">
+            <div class="div_a_1">
+                <div>
+                    <a class="a_1"  href="#"><img src="./pics/logo.svg" alt="logo" style="height: 2rem;">tinder</a>
+                </div>
+                <div class="div_a_1_1">
+                    <a  class="a_2" href="#">ผลิตภัณฑ์</a> 
+                    <a class="a_2" href="#">เรียนรู้เพิ่มเติม</a> 
+                    <a class="a_2" href="#">ความปลอดภัย</a>
+                    <a class="a_2" href="#">บริการช่วยเหลือ</a>
+                    <a class="a_2" href="#">ดาวน์โหลด</a>
+                    <a class="a_2" href="#">บัตรของขวัญ</a>
+                </div>
+            </div>
+            <div class="div_a_2">
+                <a class="a_2" href="#"><img src="./pics/translate.svg" alt="lang" style="height: 1.25rem;"> ภาษา</a>
+                <button class="pill_1">เข้าสู่ระบบ</button>
+            </div>
+        </div>
+        <div class="div_b">
+            <h1 style="font-size: 12.5rem; margin-block-start: 0.1rem; margin-block-end: 0.1rem; color: white;">ปัดขวา</h1>
+            <button class="pill_2">สร้างบัญชี</button>
+        </div>
+        <div class="div_c">
+            <p>รูปภาพทั้งหมดเป็นรูปของนายแบบ/นางแบบ และนำมาใช้เป็นภาพประกอบเท่านั้น</p>
+        </div>
+
+    </div>
+</body>
+</html>
